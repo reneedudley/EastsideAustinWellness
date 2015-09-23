@@ -65,6 +65,7 @@ h1 {
 }
 .bLine{
 	font-family: 'Open Sans Condensed', sans-serif;
+	background: no-repeat, fixed;
 }
 .perc{
 	font-family: 'Roboto Condensed', sans-serif;
@@ -100,16 +101,15 @@ h1 {
 	background-color:#f6f8f9;
 	opacity: .9;	
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 20px;
+	font-size: 30px;
 	text-decoration: bold;
+	
 }
 .navbar .navbar-nav {
   display: inline-block;
-  float: none;
-  text-align: center;
-
+  position: fixed;
+  z-index: 10;
 }
 
-.center{
- margin-left: 200px;
-}
+
+/*cube flip*/
