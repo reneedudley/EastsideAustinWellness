@@ -103,11 +103,11 @@ h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
 	text-decoration: bold;
-	
+
 }
 .navbar .navbar-nav {
   display: inline-block;
-  position: fixed;
+/*  position: fixed;*/ /*This fucking thing won't collapse*/
   z-index: 10;
 }
 
