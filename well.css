@@ -2,12 +2,14 @@ a:link { color: #000000; text-decoration: none}
 a:visited { color: #000000; text-decoration: none}
 a:hover { color: #000000; text-decoration: none}
 a:active { color: #000000; text-decoration: none}
+
 .panel{
   border:none;
   padding:0;
 
 
 }
+
 .panel.noborder {
     border: none;
     box-shadow: none;
@@ -62,6 +64,7 @@ h1 {
 	background-color: #f6f8f9;
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
+	height: 100%;
 }
 .bLine{
 	font-family: 'Open Sans Condensed', sans-serif;
