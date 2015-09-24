@@ -30,10 +30,19 @@
 <body>
 <!-- nav bar fixed to bottom, collapses for mobile, the collapse hates me, fix later -->
 
-<nav class="navbar navbar-defualt navbar-fixed-bottom menu" >
+<nav class="navbar navbar-default navbar-fixed-bottom menu" >
   <div class="container-fluid">
     <div>
-      <ul class="nav navbar-nav nav-collapse">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Wellness</a>
+    </div>
+    <div class = "collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
         <li class="active"><a href="#home">Home</a></li>
         <li><a href="#missionS">Mission Statement</a></li>
         <li><a href="#bottomLine">The Bottom Line</a></li>
@@ -41,12 +50,13 @@
         <li><a href="#programs">Programs</a></li>
         <li><a href="#getStarted">Get started</a></li>
       </ul>
+
     </div>
   </div>
 </nav>
  <div class="container-fluid">
   <div class="row">
-  	<div class="col-sm-12 top face one" id="home" style="postition:relative"> 
+  	<div class="col-sm-12 top" id="home" style="postition:relative"> 
   		<div class="col-sm-6"> 
   			<h1 class="top2"> Eastside Austin Elite</h1>
   			<h1 class="top2"> Corporate Wellness Program</h1> <br>
@@ -59,10 +69,15 @@ box-shadow: 10px 10px 2px -2px rgba(0,0,0,0.21);">
   		</div>
   	</div>
 
-  	<div class="col-sm-12 mission face two" id="missionS"> 
+  	<div class="col-sm-12 mission" id="missionS"> 
   		<br>
+      <br> 
   		<h4 style="text-decoration:bold;font-size:35px;"> Your employees are your most valubale assests and it's time to invest in them </h4> <br>
   		<p style="font-size:20px;font-family: 'Roboto Condensed', sans-serif;"> Our goal at Eastside Austin Elite is to provide a lifestyle change that will result in more productive employees, a more cohesive  workplace, and thousands saved in health insurance costs. </p>
+      <br>
+      <br>
+      <br>
+      <br>
   	</div>
 
   	<div class="col-sm-12 bLine face three" id="bottomLine" style="border:none;">
@@ -92,19 +107,28 @@ box-shadow: 10px 10px 2px -2px rgba(0,0,0,0.21);">
   			</div>
 
   			</div>
-  	<div class="col-sm-12 workplace face four" id="workPlace" style="border:none;">
+  	<div class="col-sm-12 workplace face four"  style="border:none;">
   	<img src="well-images/hand.JPG" alt="Jiu-Jitsu Austin" class="img-responsive" style="width:500px;height:200px;align:center;"><br>
   			
   			<p style="font-family: 'Roboto Condensed', sans-serif;font-size:20px;text-align:center;"> At Eastside Austin Elite we think that every workout should be intense, fun, and effective. We offer CrossFit, Kickboxing, Brazilian Jiu-Jitsu, Muay Thai, Sambo, Judo, Yoga, Mobility, and MMA classes. We have beginner all the way to competetive level options for every program. Our goal is to provide an exceptional training experience. Not only does that mean stellar instructors and classes but a pristine training enviroment. We have a 12,000 sqft facility that is specifically designed for our CrossFit and MMA programs. Our facility boasts showers, lockers, a full pro-shop, and air conditioning in all of our training rooms. </p>
   	</div>
 <!-- Ride With Me by Nelly --> 
   	<div class="col-sm-12" style="border:none;">
-  		<h2 style="font-family: 'Special Elite', cursive;text-align: center;color:#3174D6;"> "I love having such a <br><span style="font-size:50px;">	close knit community</span> of fellow athletes that <span style="font-size:50px;text-indent:60px;">push me and support me </span> and my passion. <br> <br> <span style="text-align: center;"> I couldn't imagine having the same relationship with a different gym."<br>-Ashley R.</span><h2> 
+    <h2 style="font-family: 'Open Sans Condensed', sans-serif; text-align:center;"> Why EAE</h2> 
+    <br>
+    <br>
+  		<h2 style="font-family: 'Special Elite', cursive;text-align: center;color:#3174D6;" id="workPlace"> "I love having such a <br><span style="font-size:50px;">	close knit community</span> of fellow athletes that <span style="font-size:50px;text-indent:60px;">push me and support me </span> and my passion. <br> <br> <span style="text-align: center;"> I couldn't imagine having the same relationship with a different gym."<br>-Ashley R.</span><h2> 
   		<p style="font-family: 'Roboto Condensed', sans-serif;font-size:25px;text-align:center;"> Staying true to our Eastside roots, we are anything but an ordinary gym. The unique mix of programs that we offer has created a crazy fun and supportive community that resembles a family more than just a bunch of people working out. The unwaivering support that our members and coaches have for eachother is what sets us apart and what empowers every member at EAE to reach their physical and ahtletic goals. </p>
   	</div>
-
+  <br>
+    <br>
+      <br>
+    <br>
   	<div class="col-sm-12 included face five" id="programs" style="border:none;">
-  		<h2 style="font-family: 'Open Sans Condensed', sans-serif;"> What's Included </h2> <br>
+  		  <br>
+    <br>
+
+      <h2 style="font-family: 'Open Sans Condensed', sans-serif;"> What's Included </h2> <br>
   			<li> Every employee will recieve a week for free to try us out </li>
   			<li> Unlimited access to all 120 classes on our schedule </li>
   			<li> Access to weights and bags during "open gym" hours </li>
@@ -112,7 +136,8 @@ box-shadow: 10px 10px 2px -2px rgba(0,0,0,0.21);">
   			</li>
   			<li> Free Nutritional and Mobility seminars </li>
   			<li> Same discounted rate availble for significant others </li>
-
+  <br>
+    <br>
   	</div>
 	<div class="col-sm-12 programs" style="border:none;">
   		<h2 style="font-family: 'Open Sans Condensed', sans-serif;"> Availble Programs </h2>
@@ -139,11 +164,23 @@ box-shadow: 10px 10px 2px -2px rgba(0,0,0,0.21);">
   			
   		
   	</div>
- 	<div class="col-sm-12 gStarted face six" id="getStarted" style="border:none;">
-  			<h2 style="font-family: 'Open Sans Condensed', sans-serif;"> Get Started </h2>
-  			<p> The process to get started is simple and it starts with one simple email. Email us at wellness@eastsideaustinelite.com and we'll go through the details and help you get your program up and running. </p>
-  	</div>
+      <br>
+    <br>
+      <br>
+    <br>
+ 	<div class="col-sm-12 gStarted face six" style="border:none;">
+  		  <br>
+    <br>
+    
+      	<h2 style="font-family: 'Open Sans Condensed', sans-serif;" id="getStarted"> Get Started </h2>
+  			<p> The process to get started is simple and it starts with one simple email. Email us at wellness@eastsideaustinelite.com and we'll go through the details and help you get your program up and running.
+    <br>
+    <br>
+      <br>
+    <br>
+         </p>
 
+    </div>
   	</div>
 </body>
 
